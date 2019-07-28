@@ -113,4 +113,6 @@ echo dhcp-range=192.168.40.50,192.168.40.150,255.255.255.0,12h >> /etc/dnsmasq.c
 systemctl unmask hostapd
 systemctl enable hostapd
 systemctl start hostapd
+systemctl stop hostapd
+systemctl disable hostapd
 
