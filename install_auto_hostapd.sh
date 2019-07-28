@@ -50,6 +50,8 @@ else
     printf "You should now have an access point\n"
 fi
 EOF
+chmod 755 /etc/io-expert/startup/01_hostap_wpasupplicant_switch
+
 
 cat << EOF >/etc/hostapd.conf
 # BASICS
