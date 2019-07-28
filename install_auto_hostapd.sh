@@ -53,7 +53,7 @@ EOF
 chmod 755 /etc/io-expert/startup/01_hostap_wpasupplicant_switch
 
 
-cat << EOF >/etc/hostapd.conf
+cat << EOF >/etc/hostapd/hostapd.conf
 # BASICS
 interface=wlan0
 driver=nl80211
