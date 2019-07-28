@@ -103,3 +103,7 @@ run-parts /etc/io-expert/startup
 
 exit 0
 EOF
+
+
+echo interface=wlan0 >> /etc/dnsmasq.conf
+echo dhcp-range=192.168.40.50,192.168.40.150,255.255.255.0,12h >> /etc/dnsmasq.conf
