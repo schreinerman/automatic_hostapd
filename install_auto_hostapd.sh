@@ -114,5 +114,3 @@ systemctl unmask hostapd
 systemctl enable hostapd
 systemctl start hostapd
 
-systemctl enable dnsmasq
-systemctl start dnsmasq
